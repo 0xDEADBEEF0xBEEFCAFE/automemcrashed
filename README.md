@@ -22,4 +22,5 @@ git clone https://github.com/0xDEADBEEF0xBEEFCAFE/automemcrashed.git
 cd automemcrashed
 docker build -t memcrashed .
 docker run -it --rm memcrashed
+# python3 memcrashed.py -t [TARGET IP] -p [TARGET PORT]
 ```
