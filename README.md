@@ -5,7 +5,7 @@ This tool allows you to send forged UDP packets to Memcached servers specified i
 ### Dependencies
 
 - `python3`
-- `pip`
+- `pip3`
 - `scapy`
 - file containing Memcached servers with 1 IP per line (not included)
 
