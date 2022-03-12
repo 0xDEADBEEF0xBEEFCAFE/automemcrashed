@@ -93,7 +93,7 @@ if __name__ == '__main__':
 	m.file = args.file
 	m.port = args.port
 	m.target = args.target
-	m.power = args.power
+	m.power = int(args.power)
 	m.data = args.data
 	if os.path.isfile(m.file):
 		with open(m.file, 'r') as f:
